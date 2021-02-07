@@ -1,0 +1,92 @@
+h1{
+    text-align: center;
+    text-decoration: solid;
+    font-family: monospace;
+    height: 70px;
+}
+
+/* three image containers */
+.float{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* clear floats after image containers */
+.float-container::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.chick{
+    float: right;
+    height: 20px;
+    width: 75px;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    text-align: center;
+    padding: 5px;
+    background-color: indianred;
+    margin: 0px;
+}
+.float-one{
+    background-color: dimgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 33%;
+    margin: 30px;
+    padding: 0px 0px 10px 10px;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.beef{
+    float: right;
+    height: 20px;
+    width: 75px;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    text-align: center;
+    padding: 5px;
+    background-color: maroon;
+    margin: 0px;
+}
+
+.float-two{
+    background-color: dimgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 33%;
+    margin: 30px;
+    padding: 0px 0px 10px 10px;
+    border-width: 5px;
+    border-style: solid; 
+}
+
+.sushi{
+    float: right;
+    height: 20px;
+    width: 75px;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    text-align: center;
+    padding: 5px;
+    background-color: peachpuff;
+    margin: 0px;
+}
+
+.float-three{
+    background-color: dimgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 33%;
+    margin: 30px;
+    padding: 0px 0px 10px 10px;
+    border-width: 5px;
+    border-style: solid; 
+}
+
